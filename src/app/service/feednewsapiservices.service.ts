@@ -11,7 +11,7 @@ export class FeednewsapiservicesService {
 
 
   //Api link
-  feedNewsAoiUrl = "curl -XGET 'https://api.newscatcherapi.com/v2/search?q=Tesla' -H 'x-api-key: ZUTLk9tAnrFDWsa7pOQ0tT_pB506ZfuB2-6i7HkhWno'";
+  feedNewsAoiUrl = "http://api.mediastack.com/v1/news?access_key=30c28f4608a67d2fa279bf7300f0bff3&sources=cnn,-bbc&countries=au,-us";
 
  //tech api
  technewsapi = "https://newsapi.org/v2/top-headlines?country=za&category=technology&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
