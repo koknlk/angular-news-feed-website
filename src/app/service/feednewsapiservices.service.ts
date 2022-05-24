@@ -11,7 +11,7 @@ export class FeednewsapiservicesService {
 
 
   //Api link
-  feedNewsAoiUrl = "https://api.newscatcherapi.com/v2/sources?topic=business&lang=en&countries=US";
+  feedNewsAoiUrl = "curl -XGET 'https://api.newscatcherapi.com/v2/search?q=Tesla' -H 'x-api-key: ZUTLk9tAnrFDWsa7pOQ0tT_pB506ZfuB2-6i7HkhWno'";
 
  //tech api
  technewsapi = "https://newsapi.org/v2/top-headlines?country=za&category=technology&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
