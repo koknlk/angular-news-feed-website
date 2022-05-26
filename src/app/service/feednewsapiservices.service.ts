@@ -11,7 +11,7 @@ export class FeednewsapiservicesService {
 
 
   //Api link
-  feedNewsAoiUrl = "http://api.mediastack.com/v1/news?access_key=30c28f4608a67d2fa279bf7300f0bff3&sources=cnn,-bbc&countries=au,-us";
+  feedNewsAoiUrl = "https://newsapi.org/v2/top-headlines?country=za&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
 
  //tech api
  technewsapi = "https://newsapi.org/v2/top-headlines?country=za&category=technology&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
