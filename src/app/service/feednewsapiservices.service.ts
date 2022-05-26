@@ -11,7 +11,7 @@ export class FeednewsapiservicesService {
 
 
   //Api link
-  feedNewsAoiUrl = "https://newsapi.org/v2/top-headlines?country=za&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
+  feedNewsAoiUrl = "https://newsapi.org/v2/top-headlines?country=za&apiKey=690c6dfc42ac4784915c8b9adde1dd0";
 
  //tech api
  technewsapi = "https://newsapi.org/v2/top-headlines?country=za&category=technology&apiKey=690c6dfc42ac4784915c8b9adde1dd05";
